@@ -1,0 +1,43 @@
+/* Estilo para ajustar a imagem a 30% da largura da página em dispositivos móveis */
+img {
+    width: 30vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #b1cfb29d; /* Definindo uma cor de fundo sólida */
+    color: #000000; /* Definindo a cor do texto como preto */
+}
+
+h1 {
+    color: #4287f5;
+}
+
+.descubra-button,
+.filme-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #ffffff;
+}
+
+.descubra-button {
+    background-color: #f29a9a;
+}
+
+.filme-button {
+    background-color: #8cd19d;
+}
+
+/* Classe para definir a cor do texto do filme escolhido como preto */
+.filme-escolhido {
+    color: #000000;
+}
